@@ -24,6 +24,23 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # 通知权限检查
+  # https://pub.dev/packages/notification_permissions/install
+  notification_permissions: ^0.4.8
+
+  # 路由
+  # https://pub.dev/packages/fluro
+  fluro: ^1.7.8
+
+  # 对象相等判断
+  # https://pub.dev/packages/equatable
+  equatable: ^1.2.5
+
+  # 日志
+  # https://pub.dev/packages/logger
+  logger: ^0.9.4
+
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -32,6 +49,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # 测试库
+  # https://pub.dev/packages/test
+  test: ^1.15.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
