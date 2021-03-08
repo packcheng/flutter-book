@@ -11,9 +11,9 @@ class AppConfigs {
   static const bool isDebug = true;
 
   /// 定义路由动画时间，单位毫秒
-  static const transitionDurationFast = 300;
-  static const transitionDurationNormal = 500;
-  static const transitionDurationSlow = 800;
+  static const transitionDurationFast = 200;
+  static const transitionDurationNormal = 300;
+  static const transitionDurationSlow = 500;
 
   /// 默认页面切换路由动画
   static const TransitionType transitionTypeCommon = TransitionType.inFromRight;

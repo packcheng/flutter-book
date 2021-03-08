@@ -10,4 +10,7 @@ class RoutersName {
 
   /// 应用主页
   static const String pageMain = "/";
+
+  /// 通知权限检查页
+  static const String pagePermissionNotification = "/permission/notification";
 }
