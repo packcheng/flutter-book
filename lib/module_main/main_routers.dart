@@ -15,7 +15,7 @@ class MainRouters extends ModuleRoutersBase {
   void configModuleRouters() {
     moduleRouters[RoutersName.pageMain] = Handler(
         handlerFunc: (BuildContext context, Map<String, List<String>> params) {
-      return MainScreen(null);
+      return MainScreen();
     });
   }
 }

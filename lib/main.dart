@@ -9,6 +9,7 @@ import 'package:flutter_book/module_main/main_routers.dart';
 import 'package:flutter_book/module_permission/cubit/notification_permission_cubit.dart';
 import 'package:flutter_book/module_permission/permission_routers.dart';
 import 'package:flutter_book/module_splash/splash_routers.dart';
+import 'package:flutter_book/module_widget/widget_routers.dart';
 import 'package:flutter_book/routers/routers_manager.dart';
 import 'package:flutter_book/utils/app_log.dart';
 
@@ -21,6 +22,7 @@ void main() {
   RoutersManager.addModuleRouters(MainRouters());
   RoutersManager.addModuleRouters(SplashRouters());
   RoutersManager.addModuleRouters(PermissionRouters());
+  RoutersManager.addModuleRouters(WidgetRouters());
   RoutersManager.configureRoutes(router);
   Application.setAppRouter = router;
 

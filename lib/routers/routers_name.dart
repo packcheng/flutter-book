@@ -13,4 +13,8 @@ class RoutersName {
 
   /// 通知权限检查页
   static const String pagePermissionNotification = "/permission/notification";
+
+  /// 官方Widget使用案例入口页
+  static const String pageWidget = "/widget/widget";
+  static const String pageWidgetDialog = "/widget/dialog";
 }
